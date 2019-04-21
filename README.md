@@ -3,7 +3,7 @@
 ![npm (tag)](https://img.shields.io/npm/v/react-soft-slider/beta.svg) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-soft-slider.svg) ![GitHub](https://img.shields.io/github/license/dbismut/react-soft-slider.svg) [![BuildStatus](https://travis-ci.org/dbismut/react-soft-slider.svg)](https://travis-ci.org/dbismut/react-use-gesture)
 
 <p align="middle">
-  <a href="https://codesandbox.io/s/nwj6597vq4"><img src="https://i.imgur.com/lE8Mekh.gif" width="655"/></a>
+  <a href="https://codesandbox.io/s/nwj6597vq4"><img src="https://i.imgur.com/oS3CxzE.gif" width="655"/></a>
 </p>
 <p align="middle">
   <a href="https://codesandbox.io/s/nwj6597vq4">Demo</a>

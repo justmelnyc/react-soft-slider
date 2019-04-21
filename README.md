@@ -22,7 +22,7 @@ npm install react-soft-slider
 
 ## Usage
 
-`<Slider />` as a very limited logic, and essentially does two things: it positions the slider to the slide `index` you should provide as a prop, and when the user drags a slide, it will tell you what index he's trying to set through the `onIndexChange` prop. You will usually respond by updating the index as below:
+`<Slider />` as a very limited logic, and essentially does two things: it positions the slider to the slide matching the `index` you passed as a prop, and it fires the function `onIndexChange` that will pass you the `index` matching the slide the user wants to set. You will usually respond by updating the slider `index` prop:
 
 ```jsx
 import Slider from 'react-soft-slider'
@@ -75,7 +75,7 @@ React-soft-slider uses two springs, that you can configure to your liking. It ac
 
 **Sizing your slides relatively to the slider**
 
-If you want to size your slides relatively to the slider width (let's say `width: 80%`), you'll need to rely on `slideStyle` set to `{{ minWidth: '80%' }} and styling your slide with`width`set to`100%`.
+If you want to size your slides relatively to the slider width (let's say `width: 80%`), you'll need to rely on `slideStyle` set to `{{ minWidth: '80%' }}` and styling your slide with `width` set to`100%`.
 
 **Don't use transform styling in slideStyle**
 
@@ -83,7 +83,7 @@ React-soft-slider uses the `transform` attribute to make slides move so transfor
 
 **React-soft-slider is open to suggestions!**
 
-React-soft-slider will probably never include slider peripheral features, but is open to suggestions to make handling your slides easier.
+React-soft-slider will probably never include slider peripheral features, but is open to suggestions to make handling your slides easier!
 
 ## Todo
 

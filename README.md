@@ -51,7 +51,7 @@ As you can see from the example, any child of the `<Slider /> component is consi
 
 The `<Slider />` component accepts the following props:
 
-| Name              | Type                                | Description                                                                                       | Default                                     |
+| Name              | Type                                | Description                                                                                       | Default Value                               |
 | ----------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------- |
 | `children`        | `node`                              | elements you should pass to the slider and that will be considered as slides                      | Required                                    |
 | `index`           | `number`                            | the index of the slide that should be shown by the slider                                         | Required                                    |

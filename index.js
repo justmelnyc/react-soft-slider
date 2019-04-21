@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { clamp } from 'lodash-es'
+import clamp from 'lodash.clamp'
 import { useSprings, animated, interpolate } from 'react-spring'
 import useGesture from 'react-use-gesture'
 import useResizeObserver from 'use-resize-observer'

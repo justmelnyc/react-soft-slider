@@ -1,6 +1,6 @@
 {
   "name": "react-soft-slider",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "Simple, fast and impartial slider",
   "main": "dist/react-soft-slider.js",
   "module": "dist/react-soft-slider.es.js",

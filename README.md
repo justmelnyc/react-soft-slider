@@ -2,6 +2,13 @@
 
 ![npm (tag)](https://img.shields.io/npm/v/react-soft-slider/beta.svg) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-soft-slider.svg) ![GitHub](https://img.shields.io/github/license/dbismut/react-soft-slider.svg) [![BuildStatus](https://travis-ci.org/dbismut/react-soft-slider.svg)](https://travis-ci.org/dbismut/react-use-gesture)
 
+<p align="middle">
+  <a href="https://codesandbox.io/s/nwj6597vq4"><img src="https://i.imgur.com/lE8Mekh.gif" width="655"/></a>
+</p>
+<p align="middle">
+  <a href="https://codesandbox.io/s/nwj6597vq4">Demo</a>
+</p>
+
 React-soft-slider is a minimally-featured carousel. It focuses on providing the best user experience for manipulating slides. It doesn't try to implement additional features such as pagination-dots, next and previous buttons, autoplay. If you're looking for a slider that has all this, there's [plenty](https://github.com/akiran/react-slick) of [alternatives](https://github.com/FormidableLabs/nuka-carousel) [out](https://github.com/express-labs/pure-react-carousel) [there](https://github.com/voronianski/react-swipe).
 
 This allows react-soft-slider to be highly impartial when it comes to styling, you shouldn't be fighting too hard when it comes to making the slider slider look the way you want.

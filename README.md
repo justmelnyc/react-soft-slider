@@ -6,12 +6,13 @@
   <a href="https://codesandbox.io/s/nwj6597vq4"><img src="https://i.imgur.com/Lh8l5tB.gif" width="655"/></a>
 </p>
 <p align="middle">
-  <a href="https://codesandbox.io/s/nwj6597vq4">Demo</a>
+  <a href="https://nwj6597vq4.condesandbox.io">Demo</a>
+    <a href="https://codesandbox.io/s/nwj6597vq4"><b>[Source]</b></a>
 </p>
 
-React-soft-slider is a minimally-featured carousel. It focuses on providing the best user experience for manipulating slides. It doesn't try to implement additional features such as pagination-dots, next and previous buttons, autoplay. If you're looking for a slider that has all this, there's [plenty](https://github.com/akiran/react-slick) of [alternatives](https://github.com/FormidableLabs/nuka-carousel) [out](https://github.com/express-labs/pure-react-carousel) [there](https://github.com/voronianski/react-swipe).
+React-soft-slider is a minimally-featured carousel. It focuses on providing the best user experience for manipulating slides. It doesn't try to implement additional features such as pagination dots, next and previous buttons, autoplay. If you're looking for a slider that has all this, there's [plenty](https://github.com/akiran/react-slick) of [alternatives](https://github.com/FormidableLabs/nuka-carousel) [out](https://github.com/express-labs/pure-react-carousel) [there](https://github.com/voronianski/react-swipe).
 
-This allows react-soft-slider to be highly impartial when it comes to styling, you shouldn't be fighting too hard when it comes to making the slider slider look the way you want.
+This allows react-soft-slider to be highly impartial when it comes to styling, so you shouldn't be fighting too hard to making the slider slider look the way you want.
 
 - **Touch-gesture compatible:** handles swipe and drag on mobile and desktop devices
 - **Spring animations:** driven by high-performance springs
@@ -29,7 +30,7 @@ npm install react-soft-slider
 
 ## Usage
 
-`<Slider />` as a very limited logic, and essentially does two things: it positions the slider to the slide matching the `index` you passed as a prop, and it fires the function `onIndexChange` that will pass you the `index` matching the slide the user wants to set. You will usually respond by updating the slider `index` prop:
+`<Slider />` has a very limited logic, and essentially does two things: it positions the slider to the slide matching the `index` you passed as a prop, and it fires the function `onIndexChange` that will pass you the `index` matching the slide the user wants to set. You will usually respond by updating the slider `index` prop:
 
 ```jsx
 import Slider from 'react-soft-slider'
@@ -50,7 +51,7 @@ function App() {
 }
 ```
 
-As you can see from the example, any child of the `<Slider /> component is considered as a slide. You are fully responsible for the appearance of the slides, and each slide can be styled independently.
+As you can see from the example, any child of the `<Slider />` component is considered as a slide. You are fully responsible for the appearance of the slides, and each slide can be styled independently.
 
 > **Note:** although the above example uses hooks, react-soft-slider is compatible with Class-based components. However, since it internally uses hooks, it requires React `16.8+`.
 
@@ -76,7 +77,7 @@ The `<Slider />` component accepts the following props:
 
 ### Springs configruation
 
-React-soft-slider uses two springs, that you can configure to your liking. It accepts any options supported by react-spring, [see here for more info](https://www.react-spring.io/docs/hooks/api).
+React-soft-slider uses two springs, that you can configure to your liking. It accepts any options supported by react-spring, including durations if you're not happy with how springs feel [see here for more info](https://www.react-spring.io/docs/hooks/api).
 
 ## Gotchas
 

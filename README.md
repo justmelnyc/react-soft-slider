@@ -30,7 +30,10 @@ npm install react-soft-slider
 
 ## Usage
 
-`<Slider />` has a very limited logic, and essentially does two things: it positions the slider to the slide matching the `index` you passed as a prop, and it fires the function `onIndexChange` that will pass you the `index` matching the slide the user wants to set. You will usually respond by updating the slider `index` prop:
+`<Slider />` has a very limited logic, and essentially does two things:
+
+1. it positions the slider to the slide matching the `index` you passed as a prop
+2. when the user changes the slide, it will then fire `onIndexChange` that will pass you the new `index`. You will usually respond by updating the slider `index` prop:
 
 ```jsx
 import Slider from 'react-soft-slider'
@@ -75,9 +78,9 @@ The `<Slider />` component accepts the following props:
 | `style`           | `object`                            | style passed to the slider wrapper                                                                |                                             |
 | `slideStyle`      | `object` or `(i: number) => object` | style passed to the slides                                                                        |                                             |
 
-### Springs configruation
+### Springs configuration
 
-React-soft-slider uses two springs, that you can configure to your liking. It accepts any options supported by react-spring, including durations if you're not happy with how springs feel [see here for more info](https://www.react-spring.io/docs/hooks/api).
+React-soft-slider uses two springs, one for the dragged slide, and one for the other slides, that you can configure to your liking. It accepts any options supported by react-spring, including durations if you're not happy with how springs feel [see here for more info](https://www.react-spring.io/docs/hooks/api).
 
 ## Gotchas
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { render } from 'react-dom'
-import Slider from 'react-soft-slider'
+import { Slider } from 'react-soft-slider'
 import Dat from './dat'
 import { defaultState, slides, draggedSpringOptions, trailingSpringOptions } from './data'
 

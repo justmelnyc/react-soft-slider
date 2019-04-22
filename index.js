@@ -18,7 +18,7 @@ const slides = {
 
 const trans = (x, s) => `translate3d(${x}px,0,0) scale(${s})`
 
-function Slider({
+export function Slider({
   children,
   index,
   onIndexChange,
@@ -225,5 +225,3 @@ Slider.propTypes = {
   onDragStart: PropTypes.func,
   onDragEnd: PropTypes.func
 }
-
-export default Slider

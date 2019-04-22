@@ -36,7 +36,7 @@ npm install react-soft-slider
 2. when the user changes the slide, it will then fire `onIndexChange` that will pass you the new `index`. You will usually respond by updating the slider `index` prop:
 
 ```jsx
-import Slider from 'react-soft-slider'
+import { Slider } from 'react-soft-slider'
 
 const slides = ['red', 'blue', 'yellow', 'orange']
 const style = { width: 300, height: '100%', margin: '0 10px' }

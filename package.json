@@ -1,16 +1,10 @@
 {
   "name": "react-soft-slider",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "Simple, fast and impartial slider",
   "main": "dist/react-soft-slider.js",
   "module": "dist/react-soft-slider.es.js",
   "types": "types",
-  "lint-staged": {
-    "*.{js,ts,json}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
@@ -88,7 +82,7 @@
     "lodash.clamp": "^4.0.3",
     "prop-types": "^15.7.2",
     "react-spring": "^9.0.0-beta.1",
-    "react-use-gesture": "^5.0.0-beta.7",
+    "react-use-gesture": "^5.0.0-beta.8",
     "use-resize-observer": "^3.1.0"
   }
 }

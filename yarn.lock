@@ -4373,10 +4373,10 @@ react-testing-library@^6.1.2:
     "@babel/runtime" "^7.4.2"
     dom-testing-library "^3.19.0"
 
-react-use-gesture@^5.0.0-beta.7:
-  version "5.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/react-use-gesture/-/react-use-gesture-5.0.0-beta.7.tgz#65e7bd4e0c31f47949ba659702beb83e95bbe76b"
-  integrity sha512-bJndeY67rZnlHLDJplp1cNUpexvSDDhYJD9XwhcI3F760QP8UltnpBBk0eis6ZI/EJw48Ev9G3sGDLpnFmZeEw==
+react-use-gesture@^5.0.0-beta.8:
+  version "5.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/react-use-gesture/-/react-use-gesture-5.0.0-beta.8.tgz#1146e99a347e730771ca906c6d5bc3f532034fb3"
+  integrity sha512-ZPuAtI8bZHOojW6lmPI1o66gdbWjIYo9uY8UFfkhNOR5b/q1EthviIeFHCifI3c7DMERJdJgABGImgwfx6qD+w==
 
 react@^16.8.6:
   version "16.8.6"

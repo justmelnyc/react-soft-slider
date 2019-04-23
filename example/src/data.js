@@ -27,12 +27,10 @@ export const defaultState = {
 
 export const draggedSpringOptions = {
   ...config,
-  duration: { duration: 600 },
   default: { tension: 1200, friction: 40 }
 }
 
 export const trailingSpringOptions = {
   ...config,
-  duration: { duration: 600 },
   default: { mass: 10, tension: 800, friction: 200 }
 }

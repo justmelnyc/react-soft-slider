@@ -168,7 +168,7 @@ export function Slider({
         }
 
         // if not we're just dragging and we're just updating x
-        else set(() => ({ x: temp + xDelta }))
+        else set(i => ({ x: temp + xDelta, config: key => (key === 'x' && i === pressedIndex ? draggedSpring : trailingSpring) }))
 
         // and returning temp to keep the initial position in cache along drag
         return temp
